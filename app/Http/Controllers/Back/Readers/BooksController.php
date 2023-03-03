@@ -17,7 +17,7 @@ class BooksController extends DashboardController
                 ->make(true);
         }
 
-        return view('backend.pages.readers.books');
+        return view('backend.pages.readers.books')->with('title','Books');
     }
 
 

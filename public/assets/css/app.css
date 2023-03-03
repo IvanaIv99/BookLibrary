@@ -7,3 +7,8 @@ button{
     font-size: 1rem;
     width: 100%;
 }
+
+#loginForm{
+    width: 70%;
+    margin: 0 auto;
+}

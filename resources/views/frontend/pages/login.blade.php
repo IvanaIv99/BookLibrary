@@ -17,17 +17,18 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                        <img src="<?=asset('assets/img/favicons/favicon-32x32.png')?>"/>
+                                        <h1 class="h4 mt-1 text-gray-900 mb-4 text-bold" style="color: #3a1d40;"> BookLibrary</h1>
                                     </div>
 
                                     <div class="ajaxErrors"> </div>
 
-                                    <form id="loginForm"  method="" action="" >
+                                    <form id="loginForm" class="d-flex flex-column " method="" action="" >
                                         @csrf
                                         <div class="form-group mb-2">
                                             <input type="email" class="form-control form-control-user"
                                                    id="email" name="email" aria-describedby="emailHelp"
-                                                   placeholder="Enter Email Address..." required>
+                                                   placeholder="Email" required>
 
                                         </div>
 
